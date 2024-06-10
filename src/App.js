@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+const youtuber ='ashishchauhan';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+const youtuberes ='ashishchauhan';
+
+function myName(){
+let name = "ashish";
+  return name;
 }
 
-export default App;
+function myNames(){
+  let names = 'ashish chauhan';
+    return names;
+  }
+
+export default youtuber;
+
+
+export {youtuberes, myName,myNames};
